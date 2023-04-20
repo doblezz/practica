@@ -16,13 +16,14 @@
 
 <body>
 
+    
     <div class="container-main shadow p-3 mb-5 bg-body-tertiary rounded">
-        <h1 class="modal-title">Introdusca los datos</h1>
+        <h1 class="modal-title">introduzca los datos</h1>
 
         <div class="container">
             <div class="col-md-2 mb-3">
                 <label for="inputZip" class="form-label">No. Codigo</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="number" class="form-control" id="inputZip">
             </div>
             <div class="input-group mb-4">
                 <span class="input-group-text">Nombre y Apellido</span>
@@ -36,88 +37,122 @@
 
             <div class="row g-2 mb-3">
                 <div class="col-md">
-                  <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
-                    <label for="floatingInputGrid">Identificacion</label>
-                  </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+                        <label for="floatingInputGrid">Identificacion</label>
+                    </div>
                 </div>
                 <div class="col-md">
-                  <div class="form-floating">
-                    <select class="form-select" id="floatingSelectGrid">
-                      <option selected>Ninguna</option>
-                      <option value="1">Cedula</option>
-                      <option value="2">Pasaporte</option>
-                    </select>
-                    <label for="floatingSelectGrid">Tipo de identificacion</label>
-                  </div>
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid">
+                            <option selected>Ninguna</option>
+                            <option value="1">Cedula</option>
+                            <option value="2">Pasaporte</option>
+                        </select>
+                        <label for="floatingSelectGrid">Tipo de identificacion</label>
+                    </div>
                 </div>
-              </div>
+            </div>
 
             <p class="fs-6">Fuente de contacto</p>
 
             <form class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
+                <input type="email" class="form-control" id="floatingInputInvalid" placeholder="name@example.com"
+                    value="test@example.com">
                 <label for="floatingInputInvalid">Correo electronico</label>
-              </form>
+            </form>
 
 
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">Tel. </span>
-                <input type="tel" class="form-control" placeholder="809-000-0000" aria-label="809-000-0000" aria-describedby="basic-addon1">
-              </div>
+                <input type="tel" class="form-control" placeholder="809-000-0000" aria-label="809-000-0000"
+                    aria-describedby="basic-addon1">
+            </div>
 
 
-              <div class="row gy-2 gx-3">
+            <div class="row gy-2 gx-3">
 
-                  <div class="col-md-6">
+                <div class="col-md-6">
                     <label for="inputCity" class="form-label">Direccion</label>
                     <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
                     <label for="inputState" class="form-label">Ciudad</label>
                     <select id="inputState" class="form-select">
-                      <option selected>Choose...</option>
-                      <option>...</option>
+                        <option selected>Choose...</option>
+                        <option>Santo Domingo</option>
+                        <option>Distrito Nacional</option>
+                        <option>Santiago</option>
+                        <option>San Cristóbal</option>
+                        <option>La Vega</option>
+                        <option>Puerto Plata</option>
+                        <option>San Pedro de Macorís</option>
+                        <option>Duarte</option>
+                        <option>La Altagracia</option>
+                        <option>La Romana</option>
+                        <option>San Juan</option>
+                        <option>Espaillat</option>
+                        <option>Azua</option>
+                        <option>Barahona</option>
+                        <option>Monte Plata</option>
+                        <option>Peravia</option>
+                        <option>Monseñor Nouel</option>
+                        <option>Valverde</option>
+                        <option>Sánchez Ramírez</option>
+                        <option>María Trinidad Sánchez</option>
+                        <option>Montecristi</option>
+                        <option>Samaná</option>
+                        <option>Bahoruco</option>
+                        <option>Hermanas Mirabal</option>
+                        <option>El Seibo</option>
+                        <option>Hato Mayor</option>
+                        <option>Dajabón</option>
+                        <option>Elías Piña</option>
+                        <option>San José de Ocoa</option>
+                        <option>Santiago Rodríguez</option>
+                        <option>Independencia</option>
+                        <option>Pedernales</option>
                     </select>
-                  </div>
-                  <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
                     <label for="inputZip" class="form-label">Zip</label>
                     <input type="text" class="form-control" id="inputZip">
-                  </div>
-              </div>
+                </div>
+            </div>
 
-              <div class="row gy-2 gx-3 mt-2">
+            <div class="row gy-2 gx-3 mt-2">
                 <div class="col-md-3">
                     <label for="inputState" class="form-label">Idioma</label>
                     <select id="inputState" class="form-select">
-                      <option selected>Choose...</option>
-                      <option>Español</option>
-                      <option>Ingles</option>
-                      <option>Italiano</option>
+                        <option selected>Choose...</option>
+                        <option>Español</option>
+                        <option>Ingles</option>
+                        <option>Italiano</option>
                     </select>
-                  </div>
+                </div>
 
-                  <div class="col-md-3">
+                <div class="col-md-3">
                     <label for="inputState" class="form-label">Moneda</label>
                     <select id="inputState" class="form-select">
-                      <option selected>Choose...</option>
-                      <option>USA</option>
-                      <option>DOP</option>
-                      <option>EUR</option>
+                        <option selected>Choose...</option>
+                        <option>USA</option>
+                        <option>DOP</option>
+                        <option>EUR</option>
                     </select>
-                  </div>
-              </div>
+                </div>
+            </div>
 
-              <div class="form-floating mt-2">
-                <textarea class="form-control" placeholder="Comentario adicional..." id="floatingTextarea2" style="height: 100px"></textarea>
+            <div class="form-floating mt-2">
+                <textarea class="form-control" placeholder="Comentario adicional..." id="floatingTextarea2"
+                    style="height: 100px"></textarea>
                 <label for="floatingTextarea2">Comentario adicional...</label>
-              </div>
+            </div>
 
-              
+
         </div>
-        <div class="mb-3 mx-3 mt-2">
-            <button class="btn btn-primary" type="submit" disabled>Enviar formulario</button>
-          </div>
+        <div class="mb-3 mx-3 mt-4">
+            <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#exampleModalCenter">Enviar formulario</button>
+        </div>
     </div>
 
 

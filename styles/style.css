@@ -10,7 +10,7 @@
 
 body{
     width: 100%;
-    background-color: #FCFCFC;
+    background-color: #2A2C3D;
 }
 
 
@@ -24,11 +24,6 @@ h1{
     width: 80%;
     max-width: 1000px;
     min-width: 250px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: 30px auto;
     padding: 40px 10px;
     background-color: #F7F7F6;
